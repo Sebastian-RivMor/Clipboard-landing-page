@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../clipboard-landing-page-master/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.header{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+.logo{
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.header_info{
+    width: 65%;
+    text-align: center;
+    padding:  20px;
+}
+.title{
+    color: hsl(210, 10%, 33%);
+}
+.header_info p{
+    margin-left: 17%;
+    color: hsl(201, 11%, 66%);
+}
+.header_sis button{
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+}
+.bot_1{
+    background: hsl(171, 66%, 44%);
+}
+.bot_2{
+    background: hsl(233, 100%, 69%);
+}
+
+.container_info{
+    text-align: center;
+    padding:  20px;
+    width: 43%;
+    margin: 0 auto;
+}
+.container_title{
+    color: hsl(210, 10%, 33%);
+}
+.container_p{
+    color: hsl(201, 11%, 66%);
+}
+.monitor{
+    display: flex;
+    margin: 50px 0;
+}
+
+
+.dato_monitor{
+    margin: 40px  90px;
+}
+.info_monitor{
+    line-height: 2;
+    padding: 20px;
+}
+.monitor_sub{
+    color: hsl(210, 10%, 33%);
+}
+.monitor_p{
+    width: 100%;
+    color: hsl(201, 11%, 66%);
+}
+
+.tablet{
+    text-align: center;
+    padding:  20px;
+}
+
+.dato_tablet{
+    width: 55%;
+    margin: 10% auto;
+}
+
+.tablet_title{
+    color: hsl(210, 10%, 33%);
+    margin: 20px;
+}
+
+.tablet_p{
+    color: hsl(201, 11%, 66%);
+}
+
+.work{
+    text-align: center;
+}
+
+.work_title{
+    color: hsl(210, 10%, 33%);
+}
+.work_info{
+    color: hsl(201, 11%, 66%);
+}
+
+.parte_work{
+    margin: 5% auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    line-height: 2;
+}
+.work_div{
+    display: block;
+    align-self: center;
+    width: 40%;
+}
+.work_1{
+    margin-top: 25px;
+}
+
+.empresas{
+    margin: 10% auto;
+    padding-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px; 
+}
+
+.base{
+    text-align: center;
+}
+
+.base_info{
+    width: 85%;
+    margin-left: 7.3%;
+}
+
+.footer{
+    margin-top: 10%;
+    background: hsl(200, 6%, 91%);
+}
+.footer_container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_footer{
+    margin-left: 60px;
+    width: 5%;
+}
+
+.footer_rec{
+    margin-right: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.footer_rec a{
+    color: black;
+    text-decoration: none;
+}
+
+.redes a{
+    margin: 0 20px;
+}
+
